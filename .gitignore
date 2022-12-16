@@ -1,0 +1,4 @@
+git rm --cached PieniBlogiHarjoitus\code.js
+git rm --cached PieniBlogiHarjoitus\index.html
+git rm --cached PieniBlogiHarjoitus\style.css
+
