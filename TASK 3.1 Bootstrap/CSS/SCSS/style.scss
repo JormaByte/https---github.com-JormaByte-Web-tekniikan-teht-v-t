@@ -8,3 +8,33 @@
 
     padding: 150px;
 }
+
+// Luodaan teema-mixin
+
+@mixin theme() {
+
+    border: 1px solid $highlight;
+    padding: 5px;
+    margin: 5px;
+
+
+}
+
+
+
+//Luodaan muuttuja korostusvärille
+
+$highlight: pink ;
+
+h1 {
+
+    @include theme()
+ 
+}
+
+
+.bordered {
+
+    @include theme()
+
+}
