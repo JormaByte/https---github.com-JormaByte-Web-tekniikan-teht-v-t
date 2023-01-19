@@ -4,18 +4,8 @@
   background-color: beige;
 }
 
-#info {
-  padding: 150px;
-}
-
-h1 {
-  border: 1px solid pink;
-  padding: 5px;
-  margin: 5px;
-}
-
-.bordered {
-  border: 1px solid pink;
+h1:hover {
+  border: 4px solid pink;
   padding: 5px;
   margin: 5px;
 }

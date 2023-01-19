@@ -4,16 +4,13 @@
     background-color: beige;
 }
 
-#info {
 
-    padding: 150px;
-}
 
-// Luodaan teema-mixin
+// Luodaan teema-mixin.
 
 @mixin theme() {
 
-    border: 1px solid $highlight;
+    border: 4px solid $highlight;
     padding: 5px;
     margin: 5px;
 
@@ -22,19 +19,16 @@
 
 
 
-//Luodaan muuttuja korostusvärille
+//Luodaan muuttuja korostusvärille.
 
 $highlight: pink ;
 
-h1 {
+
+// ativoidaan mixin, kun käyttäjän hiiri menee testin päälle.
+
+h1:hover {
 
     @include theme()
  
 }
 
-
-.bordered {
-
-    @include theme()
-
-}
